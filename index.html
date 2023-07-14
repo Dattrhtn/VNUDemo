@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./access/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="./access/icon/themify-icons/themify-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <title>TRUNG TÂM KHẢO THÍ ĐẠI HỌC QUỐC GIA HÀ NỘI</title>
+    <link rel="icon" href="">
+</head>
+<body>
+    <header>
+        <div id="header__container">
+            <div class="header__contact">
+                <div class="header__contact--left">
+                    <div class="header__left--phone">
+                        <div class="header__phone--icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="header__phone--number">
+                            <a href="">(+84) - 1900866891</a>
+                        </div>
+                    </div>
+                    <div class="header__left--email">
+                        <div class="header__email--icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="header__email--address">
+                            <span>
+                                <a href="">trungtamkhaothi@vnu.edu.vn</a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="header__contact--right">
+                    <div class="header__right--icon">
+                        <i class="fab fa-facebook-f"></i>   
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-youtube" style="color: red"></i>
+                        <input type="text" placeholder="Tìm Kiếm..."style="font-size: 14px;">
+                        <i class="ti-search" style="font-weight:900; font-size: 15px;"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="header__info">
+                <div class="header__logo">
+                    <img src="./access/image/header/logo-ttkt.png" alt="">
+                </div>
+                <div class="header__bar">
+                    <a href="./index.html">TRANG CHỦ</a>
+                    <a href="">GIỚI THIỆU <i class="fas fa-caret-down menu-icon"></i></a>
+                    <a href="./news-event.html">TIN TỨC - SỰ KIỆN</a>
+                    <a href="">CÁC KÌ THI <i class="fas fa-caret-down menu-icon"></i></a>
+                    <a href="">HOẠT ĐỘNG KHẢO THÍ <i class="fas fa-caret-down menu-icon"></i></a>
+                    <a href="">LIÊN HỆ</a>
+                </div>
+                <div class="header__bar--mobile">
+                    <i class="fas fa-bars" onclick="appearHideHeader()"></i>
+                </div>
+            </div>
+            <div class="header__mobile--container">
+                <div id="js_header" class="header__mobile">
+                    <ul style="margin-bottom: 0;">
+                        <li>
+                            <a href="./index.html">Trang chủ</a>
+                        </li>
+                        <li>
+                            <a href="">Giới thiệu</a>
+                            <ul style="margin-left: 40px;">
+                                <li><a href="">Cơ cấu tổ chức</a></li>
+                                <li><a href="">Chức năng và nhiệm vụ</a></li>
+                                <li><a href="">Cơ sở vật chất</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="./news-event.html">Tin tức sự kiện</a>
+                        </li>
+                        <li>
+                            <a href="">Các kì thi</a>
+                            <ul style="margin-left: 40px;">
+                                <li><a href="">Tuyển sinh đại học </a></li>
+                                <li><a href="">Tuyển sinh sau đại học</a></li>
+                                <li><a href="">Học phần chung</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="">Hoạt động khảo thí</a>
+                            <ul style="margin-left: 40px;">
+                                <li><a href="">Tập huấn khảo thí</a></li>
+                                <li><a href="">Kiểm tra kiến thức</a></li>
+                                <li><a href="">Phần mềm khảo thí</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="">Liên hệ</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+
+    <div id="home">
+        <div class="home__container">
+            <div class="home__img">
+                <img src="./access/image/home/download.jpg" alt="">
+            </div>
+            <div class="home__button">
+                <div class="home__button--pre">
+                    <button><i class="fas fa-arrow-left"></i></button>
+                </div>
+                <div class="home__button--next">
+                    <button><i class="fas fa-arrow-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="introduct">
+        <div class="introduct__container">
+            <div class="introduct__header">
+                    <div class="introduct__headName">
+                        <h1>KHẢO THÍ</h1>
+                    </div>
+                    <div class="introduct__headDes">
+                        <h6>
+                            Thiết kế, xây dựng, phát triển các bộ công cụ khảo thí, các ngân hàng câu hỏi thi và tổ chức các đợt thi đánh giá năng lực (ĐGNL) người học hoặc ứng viên phục vụ công tác tuyển chọn, tuyển sinh và đánh giá kết quả đào tạo theo kế hoạch và chỉ đạo của ĐHQGHN.
+                        </h6>
+                        <a href="" style="color:green !important">Xem chi tiết</a>
+                    </div>
+            </div>
+
+            <div class="introduct__body">
+                <a href="#" class="introduct__item introduct__item--1st">
+                    <div class="introduct__img">
+                        <img src="https://cet.vnu.edu.vn/gw/imageresize/unsafe/0x0/smart/cet.vnu.edu.vn/gw/file/v5/FileObject/public/9525b0d9-248b-4fab-83dd-ed8356c7ced8/download" alt="">
+                    </div> 
+                    <h6>Đăng kí thi</h6>
+                    
+                </a>
+                <a href="#" class="introduct__item introduct__item--2nd">
+                    <div class="introduct__img">
+                        <img src="https://cet.vnu.edu.vn/gw/imageresize/unsafe/0x0/smart/cet.vnu.edu.vn/gw/file/v5/FileObject/public/e5e21de6-5e7e-4a3e-b843-0ee685db00f4/download" alt="">
+                    </div> 
+                    <h6>Văn bản hướng dẫn</h6>
+                </a>
+                <a href="#" class="introduct__item introduct__item--3rd">
+                    <div class="introduct__img">
+                        <img src="https://cet.vnu.edu.vn/gw/imageresize/unsafe/0x0/smart/cet.vnu.edu.vn/gw/file/v5/FileObject/public/529b3755-d4b4-46e5-acc9-dad3e85bbe3d/download" alt="">
+                    </div> 
+                    <h6>Đề thi tham khảo</h6>
+                </a>
+                <a href="#" class="introduct__item introduct__item--4th">
+                    <div class="introduct__img">
+                        <img src="https://cet.vnu.edu.vn/gw/imageresize/unsafe/0x0/smart/cet.vnu.edu.vn/gw/file/v5/FileObject/public/bfb5f33b-11a8-4767-9e6f-443801a3569a/download" alt="">
+                    </div> 
+                    <h6>Tập huấn khảo thí</h6>
+                </a>
+                <a href="#" class="introduct__item introduct__item--5th">
+                    <div class="introduct__img">
+                        <img src="https://cet.vnu.edu.vn/gw/imageresize/unsafe/0x0/smart/cet.vnu.edu.vn/gw/file/v5/FileObject/public/923c3e39-1571-40fa-b257-a310fa303cb2/download" alt="">
+                    </div> 
+                    <h6>Hỗ trợ sinh viên</h6>
+                </a>
+            </div>
+
+        
+        </div>
+        
+
+        
+    </div>
+    <div id="exam">
+        <div class="exam__container">
+            <div class="row">
+                <div class="exam__exams col-lg-7">
+                    <h4 style="margin-bottom: 30px;">CÁC BÀI THI</h4>
+                    <div class="exam__menu">
+                        
+                        <div class="exam__menu--item" >
+                            <a href="" class="exam__item--img">
+                                <img src="./access/image/exams/cat-danh-gia-nang-luc.png" alt="">
+                            </a>
+                            <a href="" class="exam__item--name">
+                                <h3>ĐÁNH GIÁ NĂNG LỰC</h3>
+                            </a>
+                        </div>
+                        <div class="exam__menu--item" >
+                            <a href="" class="exam__item--img">
+                                <img src="./access/image/exams/cat-sau-dai-hoc.png" alt="">
+                            </a>
+                            <a href="" class="exam__item--name">
+                                <h3>SAU ĐẠI HỌC</h3>
+                            </a>
+                        </div>
+                        <div class="exam__menu--item" >
+                            <a href="" class="exam__item--img">
+                                <img src="./access/image/exams/cat-trung-hoc-co-so.png" alt="">
+                            </a>
+                            <a href="" class="exam__item--name">
+                                <h3>TRUNG HỌC CƠ SỞ</h3>
+                            </a>
+                        </div>
+                        <div class="exam__menu--item">
+                            <a href="" class="exam__item--img">
+                                <img src="./access/image/exams/cat-tieng-anh.png" alt="">
+                            </a>
+                            <a href="" class="exam__item--name">
+                                <h3>TIẾNG ANH</h3>
+                            </a>
+                        </div>
+                    
+                    </div>
+                </div>
+                <div class="col-lg-5">
+                    <div class="exam__noti">
+                        <div class="exam__noti--header">
+                            <img src="./access/image/exams/loa-tbao.png" alt="">
+                            <h4>THÔNG BÁO</h4>
+                        </div>
+                        <div class="exam__noti--des">
+                            <ul>
+                                <li>
+                                    <a href="#">
+                                        <span>Thông báo tuyển dụng lao động hợp đồng đợt 2 năm 2023<img src="./access/image/exams/icon_new.gif" alt=""></span>
+                                    </a>
+                                    
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span>Phổ điểm kỳ thi Đánh giá năng lực (HSA) năm 2023<img src="./access/image/exams/icon_new.gif" alt=""></span>
+                                    </a>
+                                    
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span>Kết thúc kỳ thi Đánh giá năng lực năm 2023<img src="./access/image/exams/icon_new.gif" alt=""></span>
+                                    </a>
+                                    
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span>Hoàn thành đợt thi Đáng giá năng lực HSA 307 năm 2023<img src="./access/image/exams/icon_new.gif" alt=""></span>
+                                    </a>
+                                    
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span>Hoàn thành đợt thi Đáng giá năng lực thứ sáu năm 2023 (HSA 306)<img src="./access/image/exams/icon_new.gif" alt=""></span>
+                                    </a>
+                                    
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <span>Hoàn thành đợt thi Đánh giá năng lực thứ năm của năm 2023<img src="./access/image/exams/icon_new.gif" alt=""></span>
+                                    </a>
+                                    
+                                </li>
+                            </ul>
+                            <a href="#" class="exam__des--more" style="color:green;">
+                                Xem thêm<i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="event">
+        <div class="event__container">
+            <div class="event__header">
+                <h4>SỰ KIỆN</h4>
+            </div>
+            <div class="event__body">
+                <div class="event__item">
+                    <div class="event__item--1st">
+                        <a href="" class="event__img--container">
+                            <img src="./access/image/event/ttkhaothi.jpg" alt="">
+                        </a>
+                        <div class="event__item--des">
+                            <div class="event__des--date">
+                                <i class="fas fa-calendar-alt"style="color: lightgreen; margin-right: 5px; "></i>
+                                <span>31/03/2023 11:01</span>
+                            </div>
+                            <div class="event__des--name">
+                                <a href="#">Trung tâm Khảo thí ĐHQGHN là đơn vị đầu tiên tổ chức Đại hội Đại biểu Công đoàn cấp cơ sở</a>
+                            </div>
+                            <div class="event__seeDet">
+                                <a href="#"style="color: green;text-decoration:none; ">Xem chi tiết</a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="event__item--2nd">
+                        <a href="" class="event__img--container">
+                            <img src="./access/image/event/chidoan.jpg" alt="">
+                        </a>
+                        <div class="event__item--des">
+                            <div class="event__des--date">
+                                <i class="fas fa-calendar-alt"style="color: lightgreen; margin-right: 5px; "></i>
+                                <span>31/03/2023 11:01</span>
+                            </div>
+                            <div class="event__des--name">
+                                <a href="#">Chi đoàn Trung tâm Khảo thí ĐHQGHN tổ chức hoạt động chào mừng kỷ niệm ngày thành lập Đoàn TNCS Hồ Chí Minh</a>
+                            </div>
+                            <div class="event__seeDet">
+                                <a href="#"style="color: green;text-decoration:none; ">Xem chi tiết</a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="event__item--3rd">
+                        <a href="" class="event__img--container">
+                            <img src="./access/image/event/holagreen.jpg" alt="">
+                        </a>
+                        <div class="event__item--des">
+                            <div class="event__des--date">
+                                <i class="fas fa-calendar-alt"style="color: lightgreen; margin-right: 5px; "></i>
+                                <span>31/03/2023 11:01</span>
+                            </div>
+                            <div class="event__des--name">
+                                <a href="#">Hòa Lạc thêm xanh</a>
+                            </div>
+                            <div class="event__seeDet">
+                                <a href="#"style="color: green;text-decoration:none; ">Xem chi tiết</a>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="education">
+        <div class="education__container">
+            <div class="education__header">
+                <h4>TIN GIÁO DỤC</h4>
+            </div>
+            <div class="education__body">
+                <div class="education__item">
+                    <div class="row">
+                        <div class="education__item--big col-lg-4">
+                            <img src="./access/image/education/download.jpg" alt="">
+                            <div class="education__big--des">
+                                <a href="#">Phổ điểm kỳ thi Đánh giá năng lực (HSA) năm 2023</a>
+                            </div>
+                        </div>
+                        <div class="education__item--small col-lg-8">
+                            <div class="row">
+                                <div class="education__small education__small--1st col-lg-6">
+                                    <img src="./access/image/education/small1.jpg" alt="">
+                                    <div class="education__small-des">
+                                        <div class="education__date">
+                                            <i class="fas fa-calendar-alt"style="color: lightgreen; margin-right: 5px; "></i> <span>06/06/2023, 17:41</span><br>
+                                        </div>
+                                        <a href="#">Kết thúc kỳ thi Đánh giá năng lực năm 2023</a>
+                                        <div class="event__seeDet">
+                                            <a href="#"style="color: green;text-decoration:none; ">Xem chi tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="education__small education__small--2nd col-lg-6">
+                                    <img src="./access/image/education/small2.jpg" alt="">
+                                    <div class="education__small-des">
+                                        <div class="education__date">
+                                            <i class="fas fa-calendar-alt"style="color: lightgreen; margin-right: 5px; "></i> <span> 30/05/2023, 11:41</span>
+                                        </div>
+                                        <a href="">Hoàn thành đợt thi Đáng giá năng lực HSA 307 năm 2023</a>
+                                        <div class="event__seeDet">
+                                            <a href="#"style="color: green;text-decoration:none; ">Xem chi tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="education__small education__small--3rd col-lg-6">
+                                    <img src="./access/image/education/small3.jpg" alt="">
+                                    <div class="education__small-des">
+                                        <div class="education__date">
+                                            <i class="fas fa-calendar-alt"style="color: lightgreen; margin-right: 5px; "></i> <span> 26/05/2023, 09:14</span>
+                                        </div>
+                                        <a href="">Hoàn thành đợt thi Đáng giá năng lực thứ sáu năm 2023 (HSA 306)</a>
+                                        <div class="event__seeDet">
+                                            <a href="#"style="color: green;text-decoration:none; ">Xem chi tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="education__small education__small--4th col-lg-6">
+                                    <img src="./access/image/education/small4.jpg" alt="">
+                                    <div class="education__small-des">
+                                        <div class="education__date">
+                                            <i class="fas fa-calendar-alt"style="color: lightgreen; margin-right: 5px; "></i> <span> 14/05/2023, 18:44</span>
+                                        </div>
+                                        <a href="">Hoàn thành đợt thi Đánh giá năng lực thứ năm của năm 2023</a>
+                                        <div class="event__seeDet">
+                                            <a href="#"style="color: green;text-decoration:none; ">Xem chi tiết</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="service">
+        <div class="service__header">
+            <h3>HOẠT ĐỘNG DỊCH VỤ</h3>
+        </div>
+        <div class="service__body">
+            <div class="row">
+                <div class="service__body--left col-lg-6">
+                    <div class="service__left--1st">
+                        <div class="left__1st--head">
+                            <i _ngcontent-serverapp-c137="" class="fas fa-video" style="color: lightgreen; margin-right: 5px; "></i>
+                            <i class="fas fa-calendar-alt" style="color: lightgreen; margin-right: 5px; "></i>
+                            <span> 06/02/2023</span>
+                        </div>
+                        <div class="left__1st--body">
+                            <a href="#">
+                                <h3>VTV1 - Vấn đề hôm nay 06.02.2023</h3>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="service__left--else">
+                        <div class="left__else--head">
+                            <i _ngcontent-serverapp-c137="" class="fas fa-video" style="color: lightgreen; margin-right: 5px; "></i>
+                            <i class="fas fa-calendar-alt" style="color: lightgreen; margin-right: 5px; "></i>
+                            <span> 06/02/2023</span>
+                        </div>
+                        <div class="left__else--body">
+                            <a href="#">
+                                <h6>VTV1 - Vấn đề hôm nay 06.02.2023</h6>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="service__left--else">
+                        <div class="left__else--head">
+                            <i _ngcontent-serverapp-c137="" class="fas fa-video" style="color: lightgreen; margin-right: 5px; "></i>
+                            <i class="fas fa-calendar-alt" style="color: lightgreen; margin-right: 5px; "></i>
+                            <span> 06/02/2023</span>
+                        </div>
+                        <div class="left__else--body">
+                            <a href="#">
+                                <h6>Thông tin mới nhất, quan trọng nhất về thi HSA, thí sinh cần lưu ý [Báo Đại biểu Nhân dân]</h6>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="service__left--else">
+                        <div class="left__else--head">
+                            <i _ngcontent-serverapp-c137="" class="fas fa-video" style="color: lightgreen; margin-right: 5px; "></i>
+                            <i class="fas fa-calendar-alt" style="color: lightgreen; margin-right: 5px; "></i>
+                            <span> 06/02/2023</span>
+                        </div>
+                        <div class="left__else--body">
+                            <a href="#">
+                                <h6>Hướng dẫn nộp lệ phí thi HSA</h6>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="service__left--else">
+                        <div class="left__else--head">
+                            <i _ngcontent-serverapp-c137="" class="fas fa-video" style="color: lightgreen; margin-right: 5px; "></i>
+                            <i class="fas fa-calendar-alt" style="color: lightgreen; margin-right: 5px; "></i>
+                            <span> 06/02/2023</span>
+                        </div>
+                        <div class="left__else--body">
+                            <a href="#">
+                                <h6>Video hướng dẫn đăng tài khoản thi HSA</h6>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="service__left--else">
+                        <div class="left__else--head">
+                            <i _ngcontent-serverapp-c137="" class="fas fa-video" style="color: lightgreen; margin-right: 5px; "></i>
+                            <i class="fas fa-calendar-alt" style="color: lightgreen; margin-right: 5px; "></i>
+                            <span> 06/02/2023</span>
+                        </div>
+                        <div class="left__else--body">
+                            <a href="#">
+                                <h6>Nhiều trường đại học sử dụng kết quả bài thi HSA để tuyển sinh</h6>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="service__left--else">
+                        <div class="left__else--head">
+                            <i _ngcontent-serverapp-c137="" class="fas fa-video" style="color: lightgreen; margin-right: 5px; "></i>
+                            <i class="fas fa-calendar-alt" style="color: lightgreen; margin-right: 5px; "></i>
+                            <span> 06/02/2023</span>
+                        </div>
+                        <div class="left__else--body">
+                            <a href="#">
+                                <h6>Kỳ thi Đánh giá năng lực (HSA) năm 2022</h6>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="service__left--else">
+                        <div class="left__else--head">
+                            <i _ngcontent-serverapp-c137="" class="fas fa-video" style="color: lightgreen; margin-right: 5px; "></i>
+                            <i class="fas fa-calendar-alt" style="color: lightgreen; margin-right: 5px; "></i>
+                            <span> 06/02/2023</span>
+                        </div>
+                        <div class="left__else--body">
+                            <a href="#">
+                                <h6>Kỳ thi HSA tăng cơ hội cho thí sinh trúng tuyển đại học</h6>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="service__body--right col-lg-6">
+                    <iframe width="470" height="400" src="https://www.youtube.com/embed/QVjjUKKu_uA" title="VTV1- Mở cổng đăng ký ca thi HSA năm 2023 đợt 1 (ngày 6/2/2023)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="menufooter">
+        <div class="menufooter__container">
+            <div class="menufooter__child">
+                <a href="" style="padding: 0 20px 0 0;">VNU - CET</a>
+            </div>
+            <div class="menufooter__child">
+                <a href="">ĐỐI TÁC</a>
+            </div>
+            <div class="menufooter__child">
+                <a href="">ĐÀO TẠO</a>
+            </div>
+            <div class="menufooter__child">
+                <a href="">KHOA HỌC</a>
+            </div>
+            <div class="menufooter__child">
+                <a href="">TUYỂN DỤNG</a>
+            </div>
+            <div class="menufooter__child">
+                <a href="">PHẢN HỒI</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer">
+        <div class="footer__container">
+            <div class="row">
+                <div class="col-lg-6 footer__left">
+                    <div class="footer__logo">
+                        <a href="#">
+                            <img src="./access/image/footer/logo-ttkt.png" alt="">
+                        </a>
+                        <p>Trụ sở chính: Tầng 5, Nhà HT2, Khu Đô thị Đại học Quốc gia, Hòa Lạc, Thạch Thất, Hà Nội.</p>
+                        <p>Cơ sở 2: Tầng 8, Nhà C1T, 144 Xuân Thủy, Cầu Giấy, Hà Nội.</p>
+                        <p>Tel: (+84)-1900866891/ (+84)-24.62532.740</p>
+                        <p>Email: trungtamkhaothi@vnu.edu.vn</p>
+                        <p>Copyright © 2021 Đại Học Quốc Gia Hà Nội</p>
+                        <p>Trung tâm Khảo thí Đại học Quốc gia Hà Nội thay đổi giao diện mới của website chính thức từ ngày 13/7/2022. Trang website cũ xem tại địa chỉ http://112.137.140.108</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 footer__middle">
+                    <div class="footer__middle--list">
+                        <a href="">Giới thiệu</a>
+                        <a href="">Đánh giá năng lực</a>
+                        <a href="">Phản hồi của xã hội</a>
+                        <a href="">Clip và hoạt động</a>
+                    </div>
+                </div>
+                <div class="col-lg-3 footer__right">
+                    <div class="footer__right--name">
+                        <h4>Bản đồ chỉ dẫn</h4>
+                    </div>
+                    <div class="footer__right--location">
+                        <h5>Trung tâm khảo thí</h5>
+                    </div>
+                    <iframe width="100%" loading="lazy" style="box-shadow: 1px 2px 6px 1px #ccc; border: 0;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.857454355759!2d105.78343761131093!3d21.038388868958293!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab78d37561fb%3A0x5af36f21edf0cc46!2zVHJ1bmcgdMOibSBLaOG6o28gVGjDrSDEkEhRR0hO!5e0!3m2!1sen!2s!4v1646024353279!5m2!1sen!2s"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function appearHideHeader(){
+            var ap = document.getElementById('js_header');
+            if(ap.style.display == 'block')
+            {
+                ap.classList.remove('show');
+                ap.style.display = 'none';
+            }
+            else
+            {
+                ap.classList.add('show');
+                ap.style.display = 'block';
+            }
+        }
+    </script>
+</body>
+</html>
