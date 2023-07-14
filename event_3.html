@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./access/style__event-3.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="./access/icon/themify-icons/themify-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <title>Trung tâm Khảo thí ĐHQGHN là đơn vị đầu tiên tổ chức Đại hội Đại biểu Công đoàn cấp cơ sở</title>
+    <link rel="icon" href="">
+</head>
+<body>
+    <header>
+        <div id="header__container">
+            <div class="header__container--contact">
+                <div class="container">
+                    <div class="header__contact">
+                        <div class="header__contact--left">
+                            <div class="header__left--phone">
+                                <div class="header__phone--icon">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div class="header__phone--number">
+                                    <a href="">(+84) - 1900866891</a>
+                                </div>
+                            </div>
+                            <div class="header__left--email">
+                                <div class="header__email--icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="header__email--address">
+                                    <span>
+                                        <a href="">trungtamkhaothi@vnu.edu.vn</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="header__contact--right">
+                            <div class="header__right--icon">
+                                <i class="fab fa-facebook-f"></i>   
+                                <i class="fab fa-twitter"></i>
+                                <i class="fab fa-youtube" style="color: red"></i>
+                                <input type="text" placeholder="Tìm Kiếm..."style="font-size: 14px;">
+                                <i class="ti-search" style="font-weight:900; font-size: 15px;"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header__container--info">
+                <div class="container">
+                    <div class="header__info">
+                        <div class="header__logo">
+                            <img src="./access/image/header/logo-ttkt.png" alt="">
+                        </div>
+                        <div class="header__bar">
+                            <a href="./index.html">TRANG CHỦ</a>
+                            <a href="#">GIỚI THIỆU <i class="fas fa-caret-down menu-icon"></i></a>
+                            <a href="./news-event.html">TIN TỨC - SỰ KIỆN</a>
+                            <a href="#">CÁC KÌ THI <i class="fas fa-caret-down menu-icon"></i></a>
+                            <a href="#">HOẠT ĐỘNG KHẢO THÍ <i class="fas fa-caret-down menu-icon"></i></a>
+                            <a href="#">LIÊN HỆ</a>
+                        </div>
+                        <div class="header__bar--mobile">
+                            <i class="fas fa-bars" onclick="appearHideHeader()"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="header__mobile--container">
+                <div id="js_header" class="header__mobile">
+                    <ul style="margin-bottom: 0;">
+                        <li>
+                            <a href="./index.html">Trang chủ</a>
+                        </li>
+                        <li>
+                            <a href="">Giới thiệu</a>
+                            <ul style="margin-left: 40px;">
+                                <li><a href="">Cơ cấu tổ chức</a></li>
+                                <li><a href="">Chức năng và nhiệm vụ</a></li>
+                                <li><a href="">Cơ sở vật chất</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="./news-event.html">Tin tức sự kiện</a>
+                        </li>
+                        <li>
+                            <a href="">Các kì thi</a>
+                            <ul style="margin-left: 40px;">
+                                <li><a href="">Tuyển sinh đại học </a></li>
+                                <li><a href="">Tuyển sinh sau đại học</a></li>
+                                <li><a href="">Học phần chung</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="">Hoạt động khảo thí</a>
+                            <ul style="margin-left: 40px;">
+                                <li><a href="">Tập huấn khảo thí</a></li>
+                                <li><a href="">Kiểm tra kiến thức</a></li>
+                                <li><a href="">Phần mềm khảo thí</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="">Liên hệ</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <div id="body">
+        <div class="body__row--top">
+            <div class="container" style="height: 100%;">
+                <div class="row__top--container" style="height: 100%; display: flex; align-items: center;">
+                    <h5><a href="">THÔNG BÁO</a></h5>
+                </div>
+                
+            </div>
+        </div>
+        <div class="body__content">
+            <div class="container">
+                <div class="body__content--container">
+                    <div class="row">
+                        <div class="body__content--left col-lg-8">
+                            <div class="body__content--date">
+                                <h6 style="font-weight: 400; font-size: 14px; margin-bottom: 20px;"><i>15/02/2023, 17:14</i></h6>
+                                <div class="content__date--right">
+                                    <i class="fab fa-facebook-f"></i>
+                                    <i class="fas fa-envelope"></i>
+                                    <i class="fas fa-file"></i>
+                                </div>
+                            </div>
+                            <div class="content__left--header">
+                                <h3>Hòa Lạc thêm xanh</h3>
+                                <p style="font-weight: 600; font-size: 18px; margin-bottom: 16px;">Hưởng ứng phong trào Tết trồng cây năm 2023 do Đại học Quốc gia Hà Nội (ĐHQGHN) phát động, Trung tâm Khảo thí ĐHQGHN cùng Trung tâm Kiểm định chất lượng giáo dục – ĐHQGHN và Viện Đảm bảo chất lượng giáo dục đã tổ chức “Tết trồng cây năm 2023 – Cho Hòa Lạc thêm xanh”. Đây là hoạt động cộng đồng nhận được sự hưởng ứng tích cực của toàn thể cán bộ Trung tâm Khảo thí ĐHQGHN.</p>
+                            </div>
+                            <div class="content__left--body">
+                                <p>Hưởng ứng phong trào Tết trồng cây năm 2023 do Đại học Quốc gia Hà Nội (ĐHQGHN) phát động, Trung tâm Khảo thí ĐHQGHN cùng các đơn vị gồm  Trung tâm Kiểm định Chất lượng Giáo dục – ĐHQGHN và Viện Đảm bảo Chất lượng Giáo dục đã tổ chức “Tết trồng cây năm 2023 – Cho Hòa Lạc thêm xanh”. Đây là hoạt động nhận được sự quan tâm hưởng ứng tích cực của toàn thể cán bộ Trung tâm Khảo thí ĐHQGHN.</p>
+                                <img src="./access/image/page__event-3/1.png" alt="" width="100%">
+                                <p style="text-align: center;"><i>PGS.TS Nguyễn Hoàng Hải, Phó Giám đốc Đại học Quốc gia Hà Nội phát biểu khai mạc.</i></p>
+                                <img src="./access/image/page__event-3/2.png" alt="">
+                                <p>Ngày 15/02/2023, Trung tâm Khảo thí ĐHQGHN đã triển khai trồng mới nhiều cây xanh trong khuôn viên đô thị ĐHQGHN tại Hòa Lạc. Hoạt động này góp phần tăng môi trường xanh và phát triển bền vững đô thị ĐHQGHN.</p>
+                                <img src="./access/image/page__event-3/3.png" alt="">
+                                <p style="text-align: center;"><i>Ban Giám đốc Trung tâm Khảo thí ĐHQGHN phát động cán bộ Trung tâm tham gia trồng cây</i></p>
+                                <p>Hàng cây sưa đỏ của Trung tâm Khảo thí trồng tại ven tuyến đường số 03 của  khu đô thị Hòa Lạc. Giám đốc Trung tâm Khảo thí ĐHQGHN Nguyễn Tiến Thảo chia sẻ hoạt động trồng cây xanh không chỉ có ý nghĩa với cán bộ Trung tâm Khảo thí mà còn chung tay xây dựng môi trường sống, học tập, đào tạo toàn diện  của sinh viên ĐHQGHN tại Hòa Lạc; đánh dấu hoạt động đầu tiên của Trung tâm Khảo thí tại khu đô thị mới. Tuần tới đây, Trung tâm Khảo thí ĐHQGHN sẽ chuyển trụ sở hành chính lên làm việc tại Hòa Lạc. Mỗi cây xanh được trồng thêm sẽ tạo hứng khởi, cảm hứng về một môi trường làm việc xanh, sạch, đẹp đối với toàn thể cán bộ ĐHQGHN và Trung tâm Khảo thí nói riêng.</p>
+                                <img src="./access/image/page__event-3/4.png" alt="">
+                                <p style="text-align: center;"><i>Phó Giám đốc ĐHQGHN Nguyễn Hoàng Hải cùng cán bộ Trung tâm trồng sưa đỏ tại Hòa Lạc</i></p>
+                                <p>Với tiềm năng, thế mạnh của đô thị ĐHQGHN tại Hòa Lạc cũng như sự quan tâm của Lãnh đạo Đảng và Nhà nước, ĐHQGHN tại Hòa Lạc sẽ là điểm đến lý tưởng của học sinh, sinh viên cả nước tham gia học tập và trải nghiệm.</p>
+                                <p>Một số hình ảnh tại Tết trồng cây 2023 tại khuôn viên Hòa Lạc:</p>
+                                <img src="./access/image/page__event-3/5.png" alt="">
+                                <img src="./access/image/page__event-3/6.png" alt="">
+                                <div style="width: 100%; padding: 20px 0; border-bottom: solid gainsboro 2px;">
+                                    <h6 style="font-size: 20px; margin: 0; text-align: right;">Trung tâm Khảo thí ĐHQGHN</h6>
+                                </div>
+                            </div>
+                            <div class="key">
+                                <i class="fas fa-tags"></i>
+                                <span style="font-size: 20px; font-weight: 600;">TỪ KHÓA</span>
+                            </div>
+                            <div class="form__container">
+                                <div class="form__title">
+                                    <i class="far fa-comments"></i>
+                                    <span style="font-weight: 600;">Ý KIẾN BẠN ĐỌC</span>
+                                </div>
+                                <form action="">
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="row" style="margin-bottom: 10px;">
+                                                <div class="col-lg-4">
+                                                    <label for="name">Họ và tên<span style="color: red;">*</span></label>
+                                                </div>
+                                                <div class="col-lg-8">
+                                                    <input type="text" style="width: 100%;">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="row" style="margin-bottom: 10px;">
+                                                <div class="col-lg-4">
+                                                    <label for="email" >Email<span style="color: red;">*</span></label>
+                                                </div>
+                                                <div class="col-lg-8">
+                                                    <input type="text" style="width: 100%;">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                            <div class="row">
+                                                <div class="col-lg-2">
+                                                    <label for="comment" style="text-align: left;">Lời bình<span style="color: red;">*</span></label>
+                                                </div>
+                                                <div class="col-lg-10">
+                                                    <textarea name="" id="" cols="30" rows="10" style="width: 100%;"></textarea>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="form__button col-lg-10">
+                                            <button type="submit">Gửi ý kiến</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="body__content--right col-lg-4">
+                            <div class="content__noti">
+                                <div class="content__noti--header">
+                                    <img src="./access/image/exams/loa-tbao.png" alt="">
+                                    <h4>THÔNG BÁO</h4>
+                                </div>
+                                <div class="content__noti--des">
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                <span>Thông báo tuyển dụng lao động hợp đồng đợt 2 năm 2023<img src="./access/image/exams/icon_new.gif" alt=""></span>
+                                            </a>
+                                            
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span>Phổ điểm kỳ thi Đánh giá năng lực (HSA) năm 2023<img src="./access/image/exams/icon_new.gif" alt=""></span>
+                                            </a>
+                                            
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span>Kết thúc kỳ thi Đánh giá năng lực năm 2023<img src="./access/image/exams/icon_new.gif" alt=""></span>
+                                            </a>
+                                            
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span>Hoàn thành đợt thi Đáng giá năng lực HSA 307 năm 2023<img src="./access/image/exams/icon_new.gif" alt=""></span>
+                                            </a>
+                                            
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span>Hoàn thành đợt thi Đáng giá năng lực thứ sáu năm 2023 (HSA 306)<img src="./access/image/exams/icon_new.gif" alt=""></span>
+                                            </a>
+                                            
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span>Hoàn thành đợt thi Đánh giá năng lực thứ năm của năm 2023<img src="./access/image/exams/icon_new.gif" alt=""></span>
+                                            </a>
+                                            
+                                        </li>
+                                    </ul>
+                                    <a href="#" class="content__des--more" style="color:green;">
+                                        Xem thêm<i class="fas fa-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <div id="menufooter">
+        <div class="container">
+            <div class="menufooter__content">
+                <div class="menufooter__container">
+                    <div class="menufooter__child">
+                        <a href="" style="padding: 0 20px 0 0;">VNU - CET</a>
+                    </div>
+                    <div class="menufooter__child">
+                        <a href="">ĐỐI TÁC</a>
+                    </div>
+                    <div class="menufooter__child">
+                        <a href="">ĐÀO TẠO</a>
+                    </div>
+                    <div class="menufooter__child">
+                        <a href="">KHOA HỌC</a>
+                    </div>
+                    <div class="menufooter__child">
+                        <a href="">TUYỂN DỤNG</a>
+                    </div>
+                    <div class="menufooter__child">
+                        <a href="">PHẢN HỒI</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="footer">
+        <div class="container">
+            <div class="footer__container">
+                <div class="row">
+                    <div class="col-lg-6 footer__left">
+                        <div class="footer__logo">
+                            <a href="#">
+                                <img src="./access/image/footer/logo-ttkt.png" alt="">
+                            </a>
+                            <p>Trụ sở chính: Tầng 5, Nhà HT2, Khu Đô thị Đại học Quốc gia, Hòa Lạc, Thạch Thất, Hà Nội.</p>
+                            <p>Cơ sở 2: Tầng 8, Nhà C1T, 144 Xuân Thủy, Cầu Giấy, Hà Nội.</p>
+                            <p>Tel: (+84)-1900866891/ (+84)-24.62532.740</p>
+                            <p>Email: trungtamkhaothi@vnu.edu.vn</p>
+                            <p>Copyright © 2021 Đại Học Quốc Gia Hà Nội</p>
+                            <p>Trung tâm Khảo thí Đại học Quốc gia Hà Nội thay đổi giao diện mới của website chính thức từ ngày 13/7/2022. Trang website cũ xem tại địa chỉ http://112.137.140.108</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 footer__middle">
+                        <div class="footer__middle--list">
+                            <a href="">Giới thiệu</a>
+                            <a href="">Đánh giá năng lực</a>
+                            <a href="">Phản hồi của xã hội</a>
+                            <a href="">Clip và hoạt động</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 footer__right">
+                        <div class="footer__right--name">
+                            <h4>Bản đồ chỉ dẫn</h4>
+                        </div>
+                        <div class="footer__right--location">
+                            <h5>Trung tâm khảo thí</h5>
+                        </div>
+                        <iframe width="100%" loading="lazy" style="box-shadow: 1px 2px 6px 1px #ccc; border: 0;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.857454355759!2d105.78343761131093!3d21.038388868958293!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab78d37561fb%3A0x5af36f21edf0cc46!2zVHJ1bmcgdMOibSBLaOG6o28gVGjDrSDEkEhRR0hO!5e0!3m2!1sen!2s!4v1646024353279!5m2!1sen!2s"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function appearHideHeader(){
+            var ap = document.getElementById('js_header');
+            if(ap.style.display == 'block')
+            {
+                ap.style.display = 'none';
+            }
+            else
+            {
+                ap.style.display = 'block';
+            }
+        }
+    </script>
+</body>
+</html>

@@ -14,89 +14,99 @@
 <body>
     <header>
         <div id="header__container">
-            <div class="header__contact">
-                <div class="header__contact--left">
-                    <div class="header__left--phone">
-                        <div class="header__phone--icon">
-                            <i class="fas fa-phone"></i>
+            <div class="header__container--contact">
+                <div class="container">
+                    <div class="header__contact">
+                        <div class="header__contact--left">
+                            <div class="header__left--phone">
+                                <div class="header__phone--icon">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div class="header__phone--number">
+                                    <a href="">(+84) - 1900866891</a>
+                                </div>
+                            </div>
+                            <div class="header__left--email">
+                                <div class="header__email--icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="header__email--address">
+                                    <span>
+                                        <a href="">trungtamkhaothi@vnu.edu.vn</a>
+                                    </span>
+                                </div>
+                            </div>
                         </div>
-                        <div class="header__phone--number">
-                            <a href="">(+84) - 1900866891</a>
+                        <div class="header__contact--right">
+                            <div class="header__right--icon">
+                                <i class="fab fa-facebook-f"></i>   
+                                <i class="fab fa-twitter"></i>
+                                <i class="fab fa-youtube" style="color: red"></i>
+                                <input type="text" placeholder="Tìm Kiếm..."style="font-size: 14px;">
+                                <i class="ti-search" style="font-weight:900; font-size: 15px;"></i>
+                            </div>
                         </div>
-                    </div>
-                    <div class="header__left--email">
-                        <div class="header__email--icon">
-                            <i class="fas fa-envelope"></i>
-                        </div>
-                        <div class="header__email--address">
-                            <span>
-                                <a href="">trungtamkhaothi@vnu.edu.vn</a>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <div class="header__contact--right">
-                    <div class="header__right--icon">
-                        <i class="fab fa-facebook-f"></i>   
-                        <i class="fab fa-twitter"></i>
-                        <i class="fab fa-youtube" style="color: red"></i>
-                        <input type="text" placeholder="Tìm Kiếm..."style="font-size: 14px;">
-                        <i class="ti-search" style="font-weight:900; font-size: 15px;"></i>
                     </div>
                 </div>
             </div>
-            <div class="header__info">
-                <div class="header__logo">
-                    <img src="./access/image/header/logo-ttkt.png" alt="">
-                </div>
-                <div class="header__bar">
-                    <a href="./index.html">TRANG CHỦ</a>
-                    <a href="#">GIỚI THIỆU <i class="fas fa-caret-down menu-icon"></i></a>
-                    <a href="./news-event.html">TIN TỨC - SỰ KIỆN</a>
-                    <a href="#">CÁC KÌ THI <i class="fas fa-caret-down menu-icon"></i></a>
-                    <a href="#">HOẠT ĐỘNG KHẢO THÍ <i class="fas fa-caret-down menu-icon"></i></a>
-                    <a href="#">LIÊN HỆ</a>
-                </div>
-                <div class="header__bar--mobile">
-                    <i class="fas fa-bars" onclick="appearHideHeader()"></i>
+            <div class="header__container--info">
+                <div class="container">
+                    <div class="header__info">
+                        <div class="header__logo">
+                            <img src="./access/image/header/logo-ttkt.png" alt="">
+                        </div>
+                        <div class="header__bar">
+                            <a href="./index.html">TRANG CHỦ</a>
+                            <a href="#">GIỚI THIỆU <i class="fas fa-caret-down menu-icon"></i></a>
+                            <a href="./news-event.html">TIN TỨC - SỰ KIỆN</a>
+                            <a href="#">CÁC KÌ THI <i class="fas fa-caret-down menu-icon"></i></a>
+                            <a href="#">HOẠT ĐỘNG KHẢO THÍ <i class="fas fa-caret-down menu-icon"></i></a>
+                            <a href="#">LIÊN HỆ</a>
+                        </div>
+                        <div class="header__bar--mobile">
+                            <i class="fas fa-bars" onclick="appearHideHeader()"></i>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div id="js_header" class="header__mobile">
-                <ul style="margin-bottom: 0;">
-                    <li>
-                        <a href="./index.html">Trang chủ</a>
-                    </li>
-                    <li>
-                        <a href="">Giới thiệu</a>
-                        <ul style="margin-left: 40px;">
-                            <li><a href="">Cơ cấu tổ chức</a></li>
-                            <li><a href="">Chức năng và nhiệm vụ</a></li>
-                            <li><a href="">Cơ sở vật chất</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="./news-event.html">Tin tức sự kiện</a>
-                    </li>
-                    <li>
-                        <a href="">Các kì thi</a>
-                        <ul style="margin-left: 40px;">
-                            <li><a href="">Tuyển sinh đại học </a></li>
-                            <li><a href="">Tuyển sinh sau đại học</a></li>
-                            <li><a href="">Học phần chung</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="">Hoạt động khảo thí</a>
-                        <ul style="margin-left: 40px;">
-                            <li><a href="">Tập huấn khảo thí</a></li>
-                            <li><a href="">Kiểm tra kiến thức</a></li>
-                            <li><a href="">Phần mềm khảo thí</a></li>
-                        </ul>
-                    </li>
-                    <li>
-                        <a href="">Liên hệ</a>
-                    </li>
-                </ul>
+            <div class="header__mobile--container">
+                <div id="js_header" class="header__mobile">
+                    <ul style="margin-bottom: 0;">
+                        <li>
+                            <a href="./index.html">Trang chủ</a>
+                        </li>
+                        <li>
+                            <a href="">Giới thiệu</a>
+                            <ul style="margin-left: 40px;">
+                                <li><a href="">Cơ cấu tổ chức</a></li>
+                                <li><a href="">Chức năng và nhiệm vụ</a></li>
+                                <li><a href="">Cơ sở vật chất</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="./news-event.html">Tin tức sự kiện</a>
+                        </li>
+                        <li>
+                            <a href="">Các kì thi</a>
+                            <ul style="margin-left: 40px;">
+                                <li><a href="">Tuyển sinh đại học </a></li>
+                                <li><a href="">Tuyển sinh sau đại học</a></li>
+                                <li><a href="">Học phần chung</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="">Hoạt động khảo thí</a>
+                            <ul style="margin-left: 40px;">
+                                <li><a href="">Tập huấn khảo thí</a></li>
+                                <li><a href="">Kiểm tra kiến thức</a></li>
+                                <li><a href="">Phần mềm khảo thí</a></li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="">Liên hệ</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     </header>
@@ -107,212 +117,215 @@
 
         </div>
         <div class="body__content">
+            <div class="container">
+                <div class="body__content--container">
+                    <div class="row">
+                        <div class="body__content--left col-lg-8">
+                            <div class="content__left--header">
+                                <h4>TIN TỨC & SỰ KIỆN</h4>
+                            </div>
+                            <div class="content__left--body">
+                                <div class="content__body--child">
+                                    <div class="content__child--name">
+                                        <a href="">
+                                            <h5>Thông báo tuyển dụng lao động hợp đồng đợt 2 năm 2023</h5>
+                                        </a>
+                                    </div>
+                                    <div class="content__child--date">
+                                        <h6>06/07/2023, 11:09</h6>
+                                    </div>
+                                    <div class="content__child--des">
+                                            <img src="./access/image/page__news/1.jpg" alt="">
+                                            <p>Trung tâm Khảo thí Đại học Quốc gia Hà Nội (ĐHQGHN) thông báo tuyển dụng lao động hợp đồng với 02 vị trí nhân sự có trình độ đại học (cử nhân khoa học, cử nhân sư phạm, thạc sỹ...) trở lên các ngành đào tạo Toán học, Vật lý, Sinh học, Văn học, Ngôn ngữ, Khoa học Giáo dục làm việc tại Phòng Nghiên cứu & Xây dựng Công cụ Đánh giá.</p>
+                                    </div>
+                                </div>
+                                <div class="content__body--child">
+                                    <div class="content__child--name">
+                                        <a href="">
+                                            <h5>Phổ điểm kỳ thi Đánh giá năng lực (HSA) năm 2023</h5>
+                                        </a>
+                                    </div>
+                                    <div class="content__child--date">
+                                        <h6>12/06/2023, 12:02</h6>
+                                    </div>
+                                    <div class="content__child--des">
+                                        <img src="./access/image/page__news/2.jpg" alt="">
+                                        <p>Thống kê kết quả thi năm 2023, điểm cao nhất của kỳ thi là 133/150; thấp nhất 31/150; điểm trung bình là 77,1/150; trung vị tại 77,0/150; độ lệch chuẩn là 14,0. Phân bố điểm thi theo phân phối chuẩn với giá trị trung bình và trung vị gần nhau. Phổ điểm của từng phần sẽ được công bố tại https://khaothi.vnu.edu.vn/.</p>
+                                    </div>
+                                </div>
+                                <div class="content__body--child">
+                                    <div class="content__child--name">
+                                        <a href="">
+                                            <h5>Kết thúc kỳ thi Đánh giá năng lực năm 2023</h5>
+                                        </a>
+                                    </div>
+                                    <div class="content__child--date">
+                                        <h6>06/06/2023, 17:41</h6>
+                                    </div>
+                                    <div class="content__child--des">
+                                        <img src="./access/image/page__news/3.jpg" alt="">
+                                        <p>Hội đồng thi Đánh giá năng lực học sinh trung học phổ thông (HSA) Đại học Quốc gia Hà Nội (ĐHQGHN) đã hoàn thành đợt thứ 8 của năm 2023 (HSA 308). Đợt thi HSA 308 diễn ra tại 6 địa điểm thi khu vực phía Bắc trong hai ngày 03-04/6/20243. Tại Hà Nội diễn ra 4 điểm thi Trung tâm Khảo thí ĐHQGHN, Trường Đại học Công nghệ - ĐHQGHN, Trường Đại học Khoa học Xã hội và Nhân văn - ĐHQGHN, Học viện Ngân hàng. Hai điểm thi còn lại được tổ chức tại Trung tâm Khảo thí và Quản lý chất lượng – Đại học Thái Nguyên và Trường Đại học Hàng hải Việt Nam (Hải Phòng).</p>
+                                    </div>
+                                </div>
+                                <div class="content__body--child">
+                                    <div class="content__child--name">
+                                        <a href="">
+                                            <h5>Kế hoạch tổ chức thi kết thúc học phần chung học kỳ II năm học 2022-2023</h5>
+                                        </a>
+                                    </div>
+                                    <div class="content__child--date">
+                                        <h6>31/05/2023, 09:45</h6>
+                                    </div>
+                                    <div class="content__child--des">
+                                        <img src="./access/image/page__news/4.png" alt="">
+                                        <p>Thực hiện kế hoạch năm học, Trung tâm Khảo thí ĐHQGHN thông báo các thông tin chung về kế hoạch tổ chức thi kết thúc học phần chung (Kinh tế Chính trị Mác-Lênin và Triết học Mác-Lênin) học kỳ II năm học 2022-2023</p>
+                                    </div>
+                                </div>
+                                <div class="content__body--child">
+                                    <div class="content__child--name">
+                                        <a href="">
+                                            <h5>Kế hoạch tổ chức thi kết thúc học phần chung học kỳ II năm học 2022-2023</h5>
+                                        </a>
+                                    </div>
+                                    <div class="content__child--date">
+                                        <h6>30/05/2023, 11:41</h6>
+                                    </div>
+                                    <div class="content__child--des">
+                                        <img src="./access/image/page__news/5.jpg" alt="">
+                                        <p>Hội đồng thi Đánh giá năng lực học sinh trung học phổ thông (HSA) Đại học Quốc gia Hà Nội (ĐHQGHN) đã hoàn thành đợt thứ 7 của năm 2023 (HSA 307). Đợt thi HSA 307 diễn ra tại 10 địa điểm thi khu vực phía Bắc trong hai ngày 27-28/5/20243.Tổng số thí sinh đăng ký dự thi là 14.018 trong đó có tỉ lệ thí sinh có mặt dự thi đạt 94,48% đăng ký dự thi. Trung tâm Khảo thí ĐHQGHN nhấn mạnh không tổ chức ôn luyện thi và không liên kết với bất cứ tổ chức, cá nhân nào liên quan đến hoạt động ôn luyện thi của kỳ thi Đánh giá năng lực học sinh trung học phổ thông (HSA) từ năm 2021 đến nay. Mọi tổ chức, cá nhân mạo danh Trung tâm Khảo thi ĐHQGHN về hoạt động ôn luyện thi HSA phải chịu trách nhiệm trước pháp luật.</p>
+                                    </div>
+                                </div>
+                                <div class="content__body--child">
+                                    <div class="content__child--name">
+                                        <a href="">
+                                            <h5>Hoàn thành đợt thi Đáng giá năng lực thứ sáu năm 2023 (HSA 306)</h5>
+                                        </a>
+                                    </div>
+                                    <div class="content__child--date">
+                                        <h6>26/05/2023, 09:14</h6>
+                                    </div>
+                                    <div class="content__child--des">
+                                        <img src="./access/image/page__news/6.jpg" alt="">
+                                        <p>Trung tâm Khảo thí ĐHQGHN khuyến cáo tới các thí sinh, hiện nay trên một số trang mạng, diễn đàn mạng xã hội có đưa tin về việc tổ chức lò luyện thi đánh giá năng lực, …Trung tâm Khảo thí ĐHQGHN khẳng định không tổ chức ôn luyện thi và không liên kết với bất cứ tổ chức, cá nhân nào liên quan đến hoạt động ôn luyện thi của kỳ thi Đánh giá năng lực học sinh trung học phổ thông (HSA). Mọi tổ chức, cá nhân mạo danh Trung tâm Khảo thi ĐHQGHN về hoạt động ôn luyện thi HSA phải chịu trách nhiệm trước pháp luật.</p>
+                                    </div>
+                                </div>
+                                <div class="content__body--child">
+                                    <div class="content__child--name">
+                                        <a href="">
+                                            <h5>Hoàn thành đợt thi Đánh giá năng lực thứ năm của năm 2023</h5>
+                                        </a>
+                                    </div>
+                                    <div class="content__child--date">
+                                        <h6>14/05/2023, 18:44</h6>
+                                    </div>
+                                    <div class="content__child--des">
+                                        <img src="./access/image/page__news/7.jpg" alt="">
+                                        <p>17h30 ngày 14 tháng 05 năm 2023, Hội đồng thi Đánh giá năng lực học sinh trung học phổ thông (HSA) Đại học Quốc gia Hà Nội (ĐHQGHN) đã hoàn thành đợt thi thứ năm (HSA 305) theo kế hoạch thi năm 2023. Đợt thi 305 được tổ chức tại Hà Nội, Nam Định, Thanh Hóa, Hải Phòng. Trong hai ngày 13-14/05/2023, số lượng đăng ký tham dự là 12.471 trong đó có 96,7% thí sinh có mặt dự thi.</p>
+                                    </div>
+                                </div>
+                                <div class="content__body--child">
+                                    <div class="content__child--name">
+                                        <a href="">
+                                            <h5>Phổ điểm bài thi HSA ổn định qua các đợt tháng 3-4/2023</h5>
+                                        </a>
+                                    </div>
+                                    <div class="content__child--date">
+                                        <h6>28/04/2023, 13:25</h6>
+                                    </div>
+                                    <div class="content__child--des">
+                                        <img src="./access/image/page__news/8.png" alt="">
+                                        <p>Phổ điểm thi của 4 đợt đầu tiên theo phân bổ chuẩn, điểm trung bình 75,2/150; trung vị là 75,0/150; độ lệch chuẩn 13,7. Thí sinh đạt điểm cao nhất 129/150, thấp nhất 31/150. So với cùng kỳ năm 2022, điểm trung bình năm 2023 giảm 2,4 điểm. Phổ điểm ổn định theo từng đợt thi, số thí sinh đạt từ 100 điểm trở lên chiếm 4,4%, trên 75 điểm chiếm 50,8%.</p>
+                                    </div>
+                                </div>
+                                <div class="content__body--child">
+                                    <div class="content__child--name">
+                                        <a href="">
+                                            <h5>Hoàn thành đợt thi HSA thứ tư năm 2023</h5>
+                                        </a>
+                                    </div>
+                                    <div class="content__child--date">
+                                        <h6>23/04/2023, 16:58</h6>
+                                    </div>
+                                    <div class="content__child--des">
+                                        <img src="./access/image/page__news/9.jpg" alt="">
+                                        <p>Đợt thi Đánh giá năng lực học sinh trung học phổ thông (HSA) lần thứ tư (đợt thi 304) đã được tổ chức tại 10 điểm thi gồm Trung tâm Khảo thí Đại học Quốc gia Hà Nội (ĐHQGHN), Trường Đại học Khoa học Xã hội và Nhân văn – ĐHQGHN, Trường Đại học Kinh tế Quốc dân, Trường Đại học Tài nguyên Môi trường Hà Nội, Trường Đại học Công nghiệp Hà Nội, Trường Đại học Thăng Long, Học viện Ngân hàng, Trung tâm Khảo thí và Quản lý chất lượng – ĐH Thái Nguyên, Trường Đại học Vinh (Nghệ An) và Sở Giáo dục & Đào tạo </p>
+                                    </div>
+                                </div>
+                                <div class="content__body--child">
+                                    <div class="content__child--name">
+                                        <a href="">
+                                            <h5>Hội nghị Sơ kết công tác giữa nhiệm kỳ Đại hội nhiệm kỳ 2020-2025 và Lễ kết nạp Đảng viên mới năm 2023</h5>
+                                        </a>
+                                    </div>
+                                    <div class="content__child--date">
+                                        <h6>31/03/2023, 17:05</h6>
+                                    </div>
+                                    <div class="content__child--des">
+                                        <img src="./access/image/page__news/10.jpg" alt="">
+                                        <p>
+                                            Chiều ngày 30/03/2023 tại Tòa HT2, Khu đô thị Đại học Quốc gia Hà Nội (ĐHQGHN) tại Hòa Lạc, Chi bộ Trung tâm Khảo thí ĐHQGHN đã tổ chức Hội nghị Sơ kết công tác giữa nhiệm kỳ Đại hội nhiệm kỳ 2020-202 và Lễ kết nạp Đảng viên mới năm 2023</p>
+                                    </div>
+                                </div>
 
-            <div class="row">
-                <div class="body__content--left col-lg-8">
-                    <div class="content__left--header">
-                        <h4>TIN TỨC & SỰ KIỆN</h4>
-                    </div>
-                    <div class="content__left--body">
-                        <div class="content__body--child">
-                            <div class="content__child--name">
-                                <a href="">
-                                    <h5>Thông báo tuyển dụng lao động hợp đồng đợt 2 năm 2023</h5>
-                                </a>
-                            </div>
-                            <div class="content__child--date">
-                                <h6>06/07/2023, 11:09</h6>
-                            </div>
-                            <div class="content__child--des">
-                                    <img src="./access/image/page__news/1.jpg" alt="">
-                                    <p>Trung tâm Khảo thí Đại học Quốc gia Hà Nội (ĐHQGHN) thông báo tuyển dụng lao động hợp đồng với 02 vị trí nhân sự có trình độ đại học (cử nhân khoa học, cử nhân sư phạm, thạc sỹ...) trở lên các ngành đào tạo Toán học, Vật lý, Sinh học, Văn học, Ngôn ngữ, Khoa học Giáo dục làm việc tại Phòng Nghiên cứu & Xây dựng Công cụ Đánh giá.</p>
+                                <div class="content__left--numberpage">
+                                    <button class="left__numberpage" style="background-color: #e3f2fd;"><a href="#">1</a></button>
+                                    <button class="left__numberpage"><a href="#">2</a></button>
+                                    <button class="left__numberpage"><a href="#">3</a></button>
+                                    <button class="left__numberpage"><a href="#">></a></button>
+                                    <button class="left__numberpage"><a href="#">>></a></button>
+                                </div>
                             </div>
                         </div>
-                        <div class="content__body--child">
-                            <div class="content__child--name">
-                                <a href="">
-                                    <h5>Phổ điểm kỳ thi Đánh giá năng lực (HSA) năm 2023</h5>
-                                </a>
-                            </div>
-                            <div class="content__child--date">
-                                <h6>12/06/2023, 12:02</h6>
-                            </div>
-                            <div class="content__child--des">
-                                <img src="./access/image/page__news/2.jpg" alt="">
-                                <p>Thống kê kết quả thi năm 2023, điểm cao nhất của kỳ thi là 133/150; thấp nhất 31/150; điểm trung bình là 77,1/150; trung vị tại 77,0/150; độ lệch chuẩn là 14,0. Phân bố điểm thi theo phân phối chuẩn với giá trị trung bình và trung vị gần nhau. Phổ điểm của từng phần sẽ được công bố tại https://khaothi.vnu.edu.vn/.</p>
-                            </div>
-                        </div>
-                        <div class="content__body--child">
-                            <div class="content__child--name">
-                                <a href="">
-                                    <h5>Kết thúc kỳ thi Đánh giá năng lực năm 2023</h5>
-                                </a>
-                            </div>
-                            <div class="content__child--date">
-                                <h6>06/06/2023, 17:41</h6>
-                            </div>
-                            <div class="content__child--des">
-                                <img src="./access/image/page__news/3.jpg" alt="">
-                                <p>Hội đồng thi Đánh giá năng lực học sinh trung học phổ thông (HSA) Đại học Quốc gia Hà Nội (ĐHQGHN) đã hoàn thành đợt thứ 8 của năm 2023 (HSA 308). Đợt thi HSA 308 diễn ra tại 6 địa điểm thi khu vực phía Bắc trong hai ngày 03-04/6/20243. Tại Hà Nội diễn ra 4 điểm thi Trung tâm Khảo thí ĐHQGHN, Trường Đại học Công nghệ - ĐHQGHN, Trường Đại học Khoa học Xã hội và Nhân văn - ĐHQGHN, Học viện Ngân hàng. Hai điểm thi còn lại được tổ chức tại Trung tâm Khảo thí và Quản lý chất lượng – Đại học Thái Nguyên và Trường Đại học Hàng hải Việt Nam (Hải Phòng).</p>
-                            </div>
-                        </div>
-                        <div class="content__body--child">
-                            <div class="content__child--name">
-                                <a href="">
-                                    <h5>Kế hoạch tổ chức thi kết thúc học phần chung học kỳ II năm học 2022-2023</h5>
-                                </a>
-                            </div>
-                            <div class="content__child--date">
-                                <h6>31/05/2023, 09:45</h6>
-                            </div>
-                            <div class="content__child--des">
-                                <img src="./access/image/page__news/4.png" alt="">
-                                <p>Thực hiện kế hoạch năm học, Trung tâm Khảo thí ĐHQGHN thông báo các thông tin chung về kế hoạch tổ chức thi kết thúc học phần chung (Kinh tế Chính trị Mác-Lênin và Triết học Mác-Lênin) học kỳ II năm học 2022-2023</p>
-                            </div>
-                        </div>
-                        <div class="content__body--child">
-                            <div class="content__child--name">
-                                <a href="">
-                                    <h5>Kế hoạch tổ chức thi kết thúc học phần chung học kỳ II năm học 2022-2023</h5>
-                                </a>
-                            </div>
-                            <div class="content__child--date">
-                                <h6>30/05/2023, 11:41</h6>
-                            </div>
-                            <div class="content__child--des">
-                                <img src="./access/image/page__news/5.jpg" alt="">
-                                <p>Hội đồng thi Đánh giá năng lực học sinh trung học phổ thông (HSA) Đại học Quốc gia Hà Nội (ĐHQGHN) đã hoàn thành đợt thứ 7 của năm 2023 (HSA 307). Đợt thi HSA 307 diễn ra tại 10 địa điểm thi khu vực phía Bắc trong hai ngày 27-28/5/20243.Tổng số thí sinh đăng ký dự thi là 14.018 trong đó có tỉ lệ thí sinh có mặt dự thi đạt 94,48% đăng ký dự thi. Trung tâm Khảo thí ĐHQGHN nhấn mạnh không tổ chức ôn luyện thi và không liên kết với bất cứ tổ chức, cá nhân nào liên quan đến hoạt động ôn luyện thi của kỳ thi Đánh giá năng lực học sinh trung học phổ thông (HSA) từ năm 2021 đến nay. Mọi tổ chức, cá nhân mạo danh Trung tâm Khảo thi ĐHQGHN về hoạt động ôn luyện thi HSA phải chịu trách nhiệm trước pháp luật.</p>
-                            </div>
-                        </div>
-                        <div class="content__body--child">
-                            <div class="content__child--name">
-                                <a href="">
-                                    <h5>Hoàn thành đợt thi Đáng giá năng lực thứ sáu năm 2023 (HSA 306)</h5>
-                                </a>
-                            </div>
-                            <div class="content__child--date">
-                                <h6>26/05/2023, 09:14</h6>
-                            </div>
-                            <div class="content__child--des">
-                                <img src="./access/image/page__news/6.jpg" alt="">
-                                <p>Trung tâm Khảo thí ĐHQGHN khuyến cáo tới các thí sinh, hiện nay trên một số trang mạng, diễn đàn mạng xã hội có đưa tin về việc tổ chức lò luyện thi đánh giá năng lực, …Trung tâm Khảo thí ĐHQGHN khẳng định không tổ chức ôn luyện thi và không liên kết với bất cứ tổ chức, cá nhân nào liên quan đến hoạt động ôn luyện thi của kỳ thi Đánh giá năng lực học sinh trung học phổ thông (HSA). Mọi tổ chức, cá nhân mạo danh Trung tâm Khảo thi ĐHQGHN về hoạt động ôn luyện thi HSA phải chịu trách nhiệm trước pháp luật.</p>
-                            </div>
-                        </div>
-                        <div class="content__body--child">
-                            <div class="content__child--name">
-                                <a href="">
-                                    <h5>Hoàn thành đợt thi Đánh giá năng lực thứ năm của năm 2023</h5>
-                                </a>
-                            </div>
-                            <div class="content__child--date">
-                                <h6>14/05/2023, 18:44</h6>
-                            </div>
-                            <div class="content__child--des">
-                                <img src="./access/image/page__news/7.jpg" alt="">
-                                <p>17h30 ngày 14 tháng 05 năm 2023, Hội đồng thi Đánh giá năng lực học sinh trung học phổ thông (HSA) Đại học Quốc gia Hà Nội (ĐHQGHN) đã hoàn thành đợt thi thứ năm (HSA 305) theo kế hoạch thi năm 2023. Đợt thi 305 được tổ chức tại Hà Nội, Nam Định, Thanh Hóa, Hải Phòng. Trong hai ngày 13-14/05/2023, số lượng đăng ký tham dự là 12.471 trong đó có 96,7% thí sinh có mặt dự thi.</p>
-                            </div>
-                        </div>
-                        <div class="content__body--child">
-                            <div class="content__child--name">
-                                <a href="">
-                                    <h5>Phổ điểm bài thi HSA ổn định qua các đợt tháng 3-4/2023</h5>
-                                </a>
-                            </div>
-                            <div class="content__child--date">
-                                <h6>28/04/2023, 13:25</h6>
-                            </div>
-                            <div class="content__child--des">
-                                <img src="./access/image/page__news/8.png" alt="">
-                                <p>Phổ điểm thi của 4 đợt đầu tiên theo phân bổ chuẩn, điểm trung bình 75,2/150; trung vị là 75,0/150; độ lệch chuẩn 13,7. Thí sinh đạt điểm cao nhất 129/150, thấp nhất 31/150. So với cùng kỳ năm 2022, điểm trung bình năm 2023 giảm 2,4 điểm. Phổ điểm ổn định theo từng đợt thi, số thí sinh đạt từ 100 điểm trở lên chiếm 4,4%, trên 75 điểm chiếm 50,8%.</p>
-                            </div>
-                        </div>
-                        <div class="content__body--child">
-                            <div class="content__child--name">
-                                <a href="">
-                                    <h5>Hoàn thành đợt thi HSA thứ tư năm 2023</h5>
-                                </a>
-                            </div>
-                            <div class="content__child--date">
-                                <h6>23/04/2023, 16:58</h6>
-                            </div>
-                            <div class="content__child--des">
-                                <img src="./access/image/page__news/9.jpg" alt="">
-                                <p>Đợt thi Đánh giá năng lực học sinh trung học phổ thông (HSA) lần thứ tư (đợt thi 304) đã được tổ chức tại 10 điểm thi gồm Trung tâm Khảo thí Đại học Quốc gia Hà Nội (ĐHQGHN), Trường Đại học Khoa học Xã hội và Nhân văn – ĐHQGHN, Trường Đại học Kinh tế Quốc dân, Trường Đại học Tài nguyên Môi trường Hà Nội, Trường Đại học Công nghiệp Hà Nội, Trường Đại học Thăng Long, Học viện Ngân hàng, Trung tâm Khảo thí và Quản lý chất lượng – ĐH Thái Nguyên, Trường Đại học Vinh (Nghệ An) và Sở Giáo dục & Đào tạo </p>
-                            </div>
-                        </div>
-                        <div class="content__body--child">
-                            <div class="content__child--name">
-                                <a href="">
-                                    <h5>Hội nghị Sơ kết công tác giữa nhiệm kỳ Đại hội nhiệm kỳ 2020-2025 và Lễ kết nạp Đảng viên mới năm 2023</h5>
-                                </a>
-                            </div>
-                            <div class="content__child--date">
-                                <h6>31/03/2023, 17:05</h6>
-                            </div>
-                            <div class="content__child--des">
-                                <img src="./access/image/page__news/10.jpg" alt="">
-                                <p>
-                                    Chiều ngày 30/03/2023 tại Tòa HT2, Khu đô thị Đại học Quốc gia Hà Nội (ĐHQGHN) tại Hòa Lạc, Chi bộ Trung tâm Khảo thí ĐHQGHN đã tổ chức Hội nghị Sơ kết công tác giữa nhiệm kỳ Đại hội nhiệm kỳ 2020-202 và Lễ kết nạp Đảng viên mới năm 2023</p>
-                            </div>
-                        </div>
-
-                        <div class="content__left--numberpage">
-                            <button class="left__numberpage" style="background-color: #e3f2fd;"><a href="#">1</a></button>
-                            <button class="left__numberpage"><a href="#">2</a></button>
-                            <button class="left__numberpage"><a href="#">3</a></button>
-                            <button class="left__numberpage"><a href="#">></a></button>
-                            <button class="left__numberpage"><a href="#">>></a></button>
-                        </div>
-                    </div>
-                </div>
-                <div class="body__content--right col-lg-4">
-                    <div class="content__noti">
-                        <div class="content__noti--header">
-                            <img src="./access/image/exams/loa-tbao.png" alt="">
-                            <h4>THÔNG BÁO</h4>
-                        </div>
-                        <div class="content__noti--des">
-                            <ul>
-                                <li>
-                                    <a href="#">
-                                        <span>Thông báo tuyển dụng lao động hợp đồng đợt 2 năm 2023<img src="./access/image/exams/icon_new.gif" alt=""></span>
+                        <div class="body__content--right col-lg-4">
+                            <div class="content__noti">
+                                <div class="content__noti--header">
+                                    <img src="./access/image/exams/loa-tbao.png" alt="">
+                                    <h4>THÔNG BÁO</h4>
+                                </div>
+                                <div class="content__noti--des">
+                                    <ul>
+                                        <li>
+                                            <a href="#">
+                                                <span>Thông báo tuyển dụng lao động hợp đồng đợt 2 năm 2023<img src="./access/image/exams/icon_new.gif" alt=""></span>
+                                            </a>
+                                            
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span>Phổ điểm kỳ thi Đánh giá năng lực (HSA) năm 2023<img src="./access/image/exams/icon_new.gif" alt=""></span>
+                                            </a>
+                                            
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span>Kết thúc kỳ thi Đánh giá năng lực năm 2023<img src="./access/image/exams/icon_new.gif" alt=""></span>
+                                            </a>
+                                            
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span>Hoàn thành đợt thi Đáng giá năng lực HSA 307 năm 2023<img src="./access/image/exams/icon_new.gif" alt=""></span>
+                                            </a>
+                                            
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span>Hoàn thành đợt thi Đáng giá năng lực thứ sáu năm 2023 (HSA 306)<img src="./access/image/exams/icon_new.gif" alt=""></span>
+                                            </a>
+                                            
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <span>Hoàn thành đợt thi Đánh giá năng lực thứ năm của năm 2023<img src="./access/image/exams/icon_new.gif" alt=""></span>
+                                            </a>
+                                            
+                                        </li>
+                                    </ul>
+                                    <a href="#" class="content__des--more" style="color:green;">
+                                        Xem thêm<i class="fas fa-arrow-right"></i>
                                     </a>
-                                    
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <span>Phổ điểm kỳ thi Đánh giá năng lực (HSA) năm 2023<img src="./access/image/exams/icon_new.gif" alt=""></span>
-                                    </a>
-                                    
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <span>Kết thúc kỳ thi Đánh giá năng lực năm 2023<img src="./access/image/exams/icon_new.gif" alt=""></span>
-                                    </a>
-                                    
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <span>Hoàn thành đợt thi Đáng giá năng lực HSA 307 năm 2023<img src="./access/image/exams/icon_new.gif" alt=""></span>
-                                    </a>
-                                    
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <span>Hoàn thành đợt thi Đáng giá năng lực thứ sáu năm 2023 (HSA 306)<img src="./access/image/exams/icon_new.gif" alt=""></span>
-                                    </a>
-                                    
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <span>Hoàn thành đợt thi Đánh giá năng lực thứ năm của năm 2023<img src="./access/image/exams/icon_new.gif" alt=""></span>
-                                    </a>
-                                    
-                                </li>
-                            </ul>
-                            <a href="#" class="content__des--more" style="color:green;">
-                                Xem thêm<i class="fas fa-arrow-right"></i>
-                            </a>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -326,60 +339,66 @@
 
 
     <div id="menufooter">
-        <div class="menufooter__container">
-            <div class="menufooter__child">
-                <a href="" style="padding: 0 20px 0 0;">VNU - CET</a>
-            </div>
-            <div class="menufooter__child">
-                <a href="">ĐỐI TÁC</a>
-            </div>
-            <div class="menufooter__child">
-                <a href="">ĐÀO TẠO</a>
-            </div>
-            <div class="menufooter__child">
-                <a href="">KHOA HỌC</a>
-            </div>
-            <div class="menufooter__child">
-                <a href="">TUYỂN DỤNG</a>
-            </div>
-            <div class="menufooter__child">
-                <a href="">PHẢN HỒI</a>
+        <div class="container">
+            <div class="menufooter__content">
+                <div class="menufooter__container">
+                    <div class="menufooter__child">
+                        <a href="" style="padding: 0 20px 0 0;">VNU - CET</a>
+                    </div>
+                    <div class="menufooter__child">
+                        <a href="">ĐỐI TÁC</a>
+                    </div>
+                    <div class="menufooter__child">
+                        <a href="">ĐÀO TẠO</a>
+                    </div>
+                    <div class="menufooter__child">
+                        <a href="">KHOA HỌC</a>
+                    </div>
+                    <div class="menufooter__child">
+                        <a href="">TUYỂN DỤNG</a>
+                    </div>
+                    <div class="menufooter__child">
+                        <a href="">PHẢN HỒI</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 
     <div id="footer">
-        <div class="footer__container">
-            <div class="row">
-                <div class="col-lg-6 footer__left">
-                    <div class="footer__logo">
-                        <a href="#">
-                            <img src="./access/image/footer/logo-ttkt.png" alt="">
-                        </a>
-                        <p>Trụ sở chính: Tầng 5, Nhà HT2, Khu Đô thị Đại học Quốc gia, Hòa Lạc, Thạch Thất, Hà Nội.</p>
-                        <p>Cơ sở 2: Tầng 8, Nhà C1T, 144 Xuân Thủy, Cầu Giấy, Hà Nội.</p>
-                        <p>Tel: (+84)-1900866891/ (+84)-24.62532.740</p>
-                        <p>Email: trungtamkhaothi@vnu.edu.vn</p>
-                        <p>Copyright © 2021 Đại Học Quốc Gia Hà Nội</p>
-                        <p>Trung tâm Khảo thí Đại học Quốc gia Hà Nội thay đổi giao diện mới của website chính thức từ ngày 13/7/2022. Trang website cũ xem tại địa chỉ http://112.137.140.108</p>
+        <div class="container">
+            <div class="footer__container">
+                <div class="row">
+                    <div class="col-lg-6 footer__left">
+                        <div class="footer__logo">
+                            <a href="#">
+                                <img src="./access/image/footer/logo-ttkt.png" alt="">
+                            </a>
+                            <p>Trụ sở chính: Tầng 5, Nhà HT2, Khu Đô thị Đại học Quốc gia, Hòa Lạc, Thạch Thất, Hà Nội.</p>
+                            <p>Cơ sở 2: Tầng 8, Nhà C1T, 144 Xuân Thủy, Cầu Giấy, Hà Nội.</p>
+                            <p>Tel: (+84)-1900866891/ (+84)-24.62532.740</p>
+                            <p>Email: trungtamkhaothi@vnu.edu.vn</p>
+                            <p>Copyright © 2021 Đại Học Quốc Gia Hà Nội</p>
+                            <p>Trung tâm Khảo thí Đại học Quốc gia Hà Nội thay đổi giao diện mới của website chính thức từ ngày 13/7/2022. Trang website cũ xem tại địa chỉ http://112.137.140.108</p>
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-3 footer__middle">
-                    <div class="footer__middle--list">
-                        <a href="">Giới thiệu</a>
-                        <a href="">Đánh giá năng lực</a>
-                        <a href="">Phản hồi của xã hội</a>
-                        <a href="">Clip và hoạt động</a>
+                    <div class="col-lg-3 footer__middle">
+                        <div class="footer__middle--list">
+                            <a href="">Giới thiệu</a>
+                            <a href="">Đánh giá năng lực</a>
+                            <a href="">Phản hồi của xã hội</a>
+                            <a href="">Clip và hoạt động</a>
+                        </div>
                     </div>
-                </div>
-                <div class="col-lg-3 footer__right">
-                    <div class="footer__right--name">
-                        <h4>Bản đồ chỉ dẫn</h4>
+                    <div class="col-lg-3 footer__right">
+                        <div class="footer__right--name">
+                            <h4>Bản đồ chỉ dẫn</h4>
+                        </div>
+                        <div class="footer__right--location">
+                            <h5>Trung tâm khảo thí</h5>
+                        </div>
+                        <iframe width="100%" loading="lazy" style="box-shadow: 1px 2px 6px 1px #ccc; border: 0;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.857454355759!2d105.78343761131093!3d21.038388868958293!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab78d37561fb%3A0x5af36f21edf0cc46!2zVHJ1bmcgdMOibSBLaOG6o28gVGjDrSDEkEhRR0hO!5e0!3m2!1sen!2s!4v1646024353279!5m2!1sen!2s"></iframe>
                     </div>
-                    <div class="footer__right--location">
-                        <h5>Trung tâm khảo thí</h5>
-                    </div>
-                    <iframe width="100%" loading="lazy" style="box-shadow: 1px 2px 6px 1px #ccc; border: 0;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.857454355759!2d105.78343761131093!3d21.038388868958293!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab78d37561fb%3A0x5af36f21edf0cc46!2zVHJ1bmcgdMOibSBLaOG6o28gVGjDrSDEkEhRR0hO!5e0!3m2!1sen!2s!4v1646024353279!5m2!1sen!2s"></iframe>
                 </div>
             </div>
         </div>
