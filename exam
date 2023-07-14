@@ -187,95 +187,97 @@
         
     </div>
     <div id="exam">
-        <div class="exam__container">
-            <div class="row">
-                <div class="exam__exams col-lg-7">
-                    <h4 style="margin-bottom: 30px;">CÁC BÀI THI</h4>
-                    <div class="exam__menu">
+        <div class="container">
+            <div class="exam__container">
+                <div class="row">
+                    <div class="exam__exams col-lg-7">
+                        <h4 style="margin-bottom: 30px;">CÁC BÀI THI</h4>
+                        <div class="exam__menu">
+                            
+                            <div class="exam__menu--item" >
+                                <a href="" class="exam__item--img">
+                                    <img src="./access/image/exams/cat-danh-gia-nang-luc.png" alt="">
+                                </a>
+                                <a href="" class="exam__item--name">
+                                    <h3>ĐÁNH GIÁ NĂNG LỰC</h3>
+                                </a>
+                            </div>
+                            <div class="exam__menu--item" >
+                                <a href="" class="exam__item--img">
+                                    <img src="./access/image/exams/cat-sau-dai-hoc.png" alt="">
+                                </a>
+                                <a href="" class="exam__item--name">
+                                    <h3>SAU ĐẠI HỌC</h3>
+                                </a>
+                            </div>
+                            <div class="exam__menu--item" >
+                                <a href="" class="exam__item--img">
+                                    <img src="./access/image/exams/cat-trung-hoc-co-so.png" alt="">
+                                </a>
+                                <a href="" class="exam__item--name">
+                                    <h3>TRUNG HỌC CƠ SỞ</h3>
+                                </a>
+                            </div>
+                            <div class="exam__menu--item">
+                                <a href="" class="exam__item--img">
+                                    <img src="./access/image/exams/cat-tieng-anh.png" alt="">
+                                </a>
+                                <a href="" class="exam__item--name">
+                                    <h3>TIẾNG ANH</h3>
+                                </a>
+                            </div>
                         
-                        <div class="exam__menu--item" >
-                            <a href="" class="exam__item--img">
-                                <img src="./access/image/exams/cat-danh-gia-nang-luc.png" alt="">
-                            </a>
-                            <a href="" class="exam__item--name">
-                                <h3>ĐÁNH GIÁ NĂNG LỰC</h3>
-                            </a>
                         </div>
-                        <div class="exam__menu--item" >
-                            <a href="" class="exam__item--img">
-                                <img src="./access/image/exams/cat-sau-dai-hoc.png" alt="">
-                            </a>
-                            <a href="" class="exam__item--name">
-                                <h3>SAU ĐẠI HỌC</h3>
-                            </a>
-                        </div>
-                        <div class="exam__menu--item" >
-                            <a href="" class="exam__item--img">
-                                <img src="./access/image/exams/cat-trung-hoc-co-so.png" alt="">
-                            </a>
-                            <a href="" class="exam__item--name">
-                                <h3>TRUNG HỌC CƠ SỞ</h3>
-                            </a>
-                        </div>
-                        <div class="exam__menu--item">
-                            <a href="" class="exam__item--img">
-                                <img src="./access/image/exams/cat-tieng-anh.png" alt="">
-                            </a>
-                            <a href="" class="exam__item--name">
-                                <h3>TIẾNG ANH</h3>
-                            </a>
-                        </div>
-                    
                     </div>
-                </div>
-                <div class="col-lg-5">
-                    <div class="exam__noti">
-                        <div class="exam__noti--header">
-                            <img src="./access/image/exams/loa-tbao.png" alt="">
-                            <h4>THÔNG BÁO</h4>
-                        </div>
-                        <div class="exam__noti--des">
-                            <ul>
-                                <li>
-                                    <a href="#">
-                                        <span>Thông báo tuyển dụng lao động hợp đồng đợt 2 năm 2023<img src="./access/image/exams/icon_new.gif" alt=""></span>
-                                    </a>
-                                    
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <span>Phổ điểm kỳ thi Đánh giá năng lực (HSA) năm 2023<img src="./access/image/exams/icon_new.gif" alt=""></span>
-                                    </a>
-                                    
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <span>Kết thúc kỳ thi Đánh giá năng lực năm 2023<img src="./access/image/exams/icon_new.gif" alt=""></span>
-                                    </a>
-                                    
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <span>Hoàn thành đợt thi Đáng giá năng lực HSA 307 năm 2023<img src="./access/image/exams/icon_new.gif" alt=""></span>
-                                    </a>
-                                    
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <span>Hoàn thành đợt thi Đáng giá năng lực thứ sáu năm 2023 (HSA 306)<img src="./access/image/exams/icon_new.gif" alt=""></span>
-                                    </a>
-                                    
-                                </li>
-                                <li>
-                                    <a href="#">
-                                        <span>Hoàn thành đợt thi Đánh giá năng lực thứ năm của năm 2023<img src="./access/image/exams/icon_new.gif" alt=""></span>
-                                    </a>
-                                    
-                                </li>
-                            </ul>
-                            <a href="#" class="exam__des--more" style="color:green;">
-                                Xem thêm<i class="fas fa-arrow-right"></i>
-                            </a>
+                    <div class="col-lg-5">
+                        <div class="exam__noti">
+                            <div class="exam__noti--header">
+                                <img src="./access/image/exams/loa-tbao.png" alt="">
+                                <h4>THÔNG BÁO</h4>
+                            </div>
+                            <div class="exam__noti--des">
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <span>Thông báo tuyển dụng lao động hợp đồng đợt 2 năm 2023<img src="./access/image/exams/icon_new.gif" alt=""></span>
+                                        </a>
+                                        
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>Phổ điểm kỳ thi Đánh giá năng lực (HSA) năm 2023<img src="./access/image/exams/icon_new.gif" alt=""></span>
+                                        </a>
+                                        
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>Kết thúc kỳ thi Đánh giá năng lực năm 2023<img src="./access/image/exams/icon_new.gif" alt=""></span>
+                                        </a>
+                                        
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>Hoàn thành đợt thi Đáng giá năng lực HSA 307 năm 2023<img src="./access/image/exams/icon_new.gif" alt=""></span>
+                                        </a>
+                                        
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>Hoàn thành đợt thi Đáng giá năng lực thứ sáu năm 2023 (HSA 306)<img src="./access/image/exams/icon_new.gif" alt=""></span>
+                                        </a>
+                                        
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>Hoàn thành đợt thi Đánh giá năng lực thứ năm của năm 2023<img src="./access/image/exams/icon_new.gif" alt=""></span>
+                                        </a>
+                                        
+                                    </li>
+                                </ul>
+                                <a href="#" class="exam__des--more" style="color:green;">
+                                    Xem thêm<i class="fas fa-arrow-right"></i>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
