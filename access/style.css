@@ -225,7 +225,7 @@ header a{
 }
 .introduct__item{
    padding: 30px;
-   width: 230px;
+   width: 100% !important;
    border-radius: 5px;
    border: 1px solid #dcd9d9;
    box-shadow: 1px 2px 6px 1px #ccc;
@@ -241,6 +241,7 @@ header a{
 .introduct__body{
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 30px;
 }
 .introduct__body h6{
     font-size: 18px;
